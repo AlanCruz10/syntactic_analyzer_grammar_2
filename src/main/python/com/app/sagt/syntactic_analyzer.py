@@ -57,6 +57,7 @@ def validate_terminal(production_pop):
 
 def analyze_syntax(input: str):
     input_converted = util.convert(input)
+    print(input_converted)
     input_converted.append('$')
     pile = ['$', "REPETITIVA"]
     status = ""

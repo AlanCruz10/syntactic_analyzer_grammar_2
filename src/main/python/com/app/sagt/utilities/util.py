@@ -35,7 +35,7 @@ def convert(input: str):
             input_converted.extend(list(current_word))
 
     for i, x in enumerate(input_converted):
-        if x == reserved_words['<'] or x == reserved_words['>'] and input_converted[i+1] == "=":
+        if x == reserved_words['<'] and input_converted[i+1] == "=" or x == reserved_words['>'] and input_converted[i+1] == "=":
             input_converted[i] += input_converted.pop(i + 1)
 
     return input_converted

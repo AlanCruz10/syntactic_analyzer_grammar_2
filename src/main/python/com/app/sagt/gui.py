@@ -45,10 +45,10 @@ def show_window():
     entry_2 = Text(bd=0, bg="#FFFFFF", fg="#000716", highlightthickness=0)
     entry_2.place(x=38.0, y=186.0, width=487.0, height=153.0)
 
-    button_image_1 = PhotoImage(file=relative_to_assets("button_1.png"))
-    button_1 = Button(image=button_image_1, borderwidth=0, highlightthickness=0,
-                      command=lambda: print("button_2 clicked"), relief="flat")
-    button_1.place(x=239.0, y=361.0, width=95.0, height=25.0)
+    # button_image_1 = PhotoImage(file=relative_to_assets("button_1.png"))
+    # button_1 = Button(image=button_image_1, borderwidth=0, highlightthickness=0,
+    #                   command=lambda: print("button_2 clicked"), relief="flat")
+    # button_1.place(x=239.0, y=361.0, width=95.0, height=25.0)
 
     button_image_2 = PhotoImage(file=relative_to_assets("button_2.png"))
     button_2 = Button(image=button_image_2, borderwidth=0, highlightthickness=0,
